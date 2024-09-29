@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #025f84;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+
+#home{
+    margin:0;
+    padding:0;
+    padding-top:80px;
+    padding:1.5rem;
+}
+
+#home .home-content {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.home-content {
+    margin-left: 50px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+.logo{
+    height:200px;
+    border-radius:50%;
+}
+
+.intro-school{
+    margin-left:20px;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif
+}
+
+.intro-school p {
+    color:rgb(99,99,99);
+    font-size:medium;
+}
+
+.announcements {
+    margin-top: 20px;
+}
+
+.announcements h2 {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+
+.announcement-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.announcement-card {
+    background: #f4f4f4;
+    padding: 25px;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.announcement-card h3{
+    margin-bottom: 10px;
+}
+
+.leadership-team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-card {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.leadership-team img {
+    margin-top:20px;
+    height:200px;
+}
+
+p.name {
+    font-weight: 800;
+}
+
+p.card-content{
+    margin: 1rem;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+form button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#about-us, #academics, #contact-us, #gallery{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.materials{
+    margin-top: 2rem;
+}
+
